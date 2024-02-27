@@ -170,7 +170,7 @@ body {
 .landing .container .content {
     text-align: center;
     color: white;
-    z-index: 1;
+    position: relative;
 }
 
 .landing .container .content h1 {
@@ -181,6 +181,16 @@ body {
 .landing .container .content p {
     font-size: 30px;
     letter-spacing: 2px;
+}
+
+@media (max-width: 600px) {
+    .landing .container .content h1 {
+        font-size: 60px;
+    }
+
+    .landing .container .content p {
+        font-size: 20px;
+    }
 }
 
 .landing .container .content button {

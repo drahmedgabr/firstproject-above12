@@ -246,3 +246,65 @@ body {
 
 
 /* End Services */
+
+
+/* Start Stories */
+
+.stories {
+    background-color: #F6F6F6;
+}
+
+.stories .contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stories .contents .cards {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stories .container .contents .imgDiv {
+    width: 300px;
+}
+
+.stories .container .contents .imgDiv img {
+    width: 100%;
+}
+
+.stories .container .contents .cards .card {
+    width: 230px;
+    height: 90%;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.302);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.stories .container .contents .cards .card .cardImg {
+    height: 50%;
+    background-color: #E7E7E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stories .container .contents .cards .card .cardImg img {
+    width: 50%;
+}
+
+.stories .container .contents .cards .card .cardDetails {
+    padding: 10px;
+    text-align: center;
+}
+
+/* .stories .container .contents .cards .card .cardDetails h3 {
+    font-size: 25px;
+} */
+
+.stories .container .contents .cards .card .cardDetails p {
+    color: var(--secondary-text);
+}
+
+/* End Stories */

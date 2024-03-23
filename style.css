@@ -365,9 +365,128 @@ body {
     }
 }
 
-
-
-
-
-
 /* End Stories */
+
+/* Start Contact */
+
+.contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.contact .container {
+    text-align: center;
+}
+
+.contact .container .contents {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.contact .container .contents .details h3 {
+    font-size: 30px;
+    color: var(--main-color);
+    margin: 0;
+}
+
+.contact .container .contents .details p {
+    font-size: 22px;
+    color: var(--secondary-text);
+    margin-bottom: 40px;
+}
+
+.contact .container .contents .form {
+    margin-left: 40px;
+    flex-grow: 1;
+}
+
+.contact .container .contents .form .firstRow {
+    display: flex;
+}
+
+.contact .container .contents .form .firstRow input:nth-child(2) {
+    margin-left: 10px;
+}
+
+.contact .container .contents .form input, textarea {
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #F1F5F8;
+    outline-color: var(--secondary-color);
+    resize: none;
+}
+
+.contact .container .contents .form button {
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.contact .container .contents .form button:hover {
+    cursor: pointer;
+    background-color: rgb(175, 21, 21);
+}
+
+@media (max-width: 767px) {
+    .contact .container .contents {
+        flex-direction: column;
+    }
+
+    .contact .container .contents .form {
+        margin-left: 0;
+        margin-top: 40px;
+    }
+}
+
+
+/* End Contact */
+
+/* Start Footer */
+
+.footer {
+    padding: 5px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 20px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer .container .socialIcons {
+    display: flex;
+}
+
+.footer .container .socialIcons .iconDiv {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: var(--main-color);
+    margin-left: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+@media (max-width: 767px) {
+    .footer .container {
+        flex-direction: column;
+    }
+}
+
+/* End Footer */

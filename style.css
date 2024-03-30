@@ -2,6 +2,8 @@ html {
     --main-color: #333333;
     --secondary-color: #fa694e;
     --secondary-text: #777;
+    --light-gray: #e7e7e7;
+    scroll-behavior: smooth;
 }
 
 * {
@@ -129,6 +131,11 @@ body {
     right: -30px;
     display: none;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.222);
+}
+
+.header .container .menuBar .menuList a {
+    text-decoration: none;
+    color: black;
 }
 
 .header .container .menuBar .menuList .divider {
@@ -302,7 +309,7 @@ body {
 
 .stories .container .contents .cards .card .cardImg {
     height: 50%;
-    background-color: #e7e7e7;
+    background-color: var(--light-gray);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -332,7 +339,7 @@ body {
     content: "";
     width: 100px;
     height: 80%;
-    background-color: #e7e7e7;
+    background-color: var(--light-gray);
     position: absolute;
     right: 30px;
     top: 10%;

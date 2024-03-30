@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <meta property="og:title" content="tatbeqey Official Website">
+    <meta property="og:description" content="tatbeqey is company offers several prohramming solutions">
+    <meta property="og:image" content="https://raw.githubusercontent.com/drahmedgabr/firstproject-above12/main/images/coding.jpg">
+    <link rel="icon" href="images/logo.png" type="image/png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -26,13 +30,21 @@
                     <div class="menuItem"></div>
                 </div>
                 <ul class="menuList">
-                    <li>Home</li>
+                    <a href="#homeSection">
+                        <li>Home</li>
+                    </a>
                     <div class="divider"></div>
-                    <li>Services</li>
+                    <a href="#servicesSection">
+                        <li>Services</li>
+                    </a>
                     <div class="divider"></div>
-                    <li>Stories</li>
+                    <a href="#storiesSection">
+                        <li>Stories</li>
+                    </a>
                     <div class="divider"></div>
-                    <li>Contact</li>
+                    <a href="#contactSection">
+                        <li>Contact</li>
+                    </a>
                 </ul>
             </div>
         </div>
@@ -42,12 +54,14 @@
 
     <!-- Start Landing -->
 
-    <div class="landing">
+    <div class="landing" id="homeSection">
         <div class="container"> 
             <div class="content">
                 <h1>tatbeqey</h1>
                 <p>The best programming service platform</p>
-                <button>Get in Touch</button>
+                <a href="#contactSection">
+                    <button>Get in Touch</button>
+                </a>
             </div>
         </div>
     </div>
@@ -56,7 +70,7 @@
 
     <!-- Start Services -->
 
-    <div class="services">
+    <div class="services" id="servicesSection">
         <div class="container">
             <div class="service">
                 <i class="bi bi-magic"></i>
@@ -80,7 +94,7 @@
     
     <!-- Start Stories -->
 
-    <div class="stories">
+    <div class="stories" id="storiesSection">
         <div class="container">
             <h3 class="specialHeading">Success Stories</h3>
             <p class="specialParagraph">We do awesome work, check some of success stories so far</p>
@@ -97,47 +111,47 @@
                     </div>
                     <div class="card">
                         <div class="cardImg">
-                            <img src="images/egyquran.png" alt="">
+                            <img src="images/dosecalc.png" alt="">
                         </div>
                         <div class="cardDetails">
-                            <h3>إذاعات القرآن الكريم</h3>
-                            <p>Live Quran Audio Streaming available in Google Play and App Store</p>
+                            <h3>Dose Calculator</h3>
+                            <p>Calculates famous drug doses</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="cardImg">
-                            <img src="images/egyquran.png" alt="">
+                            <img src="images/ghoniem.png" alt="">
                         </div>
                         <div class="cardDetails">
-                            <h3>إذاعات القرآن الكريم</h3>
-                            <p>Live Quran Audio Streaming available in Google Play and App Store</p>
+                            <h3>Ghoniem Pharmacy</h3>
+                            <p>Online Pharamacy App</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="cardImg">
-                            <img src="images/egyquran.png" alt="">
+                            <img src="images/freedonations.png" alt="">
                         </div>
                         <div class="cardDetails">
-                            <h3>إذاعات القرآن الكريم</h3>
-                            <p>Live Quran Audio Streaming available in Google Play and App Store</p>
+                            <h3>Free Donations</h3>
+                            <p>Online donation app by watching ads</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="cardImg">
-                            <img src="images/egyquran.png" alt="">
+                            <img src="images/hojamah.png" alt="">
                         </div>
                         <div class="cardDetails">
-                            <h3>إذاعات القرآن الكريم</h3>
-                            <p>Live Quran Audio Streaming available in Google Play and App Store</p>
+                            <h3>Hojamah App</h3>
+                            <p>Hojamah Store</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="cardImg">
-                            <img src="images/egyquran.png" alt="">
+                            <img src="images/smarttech.png" alt="">
                         </div>
                         <div class="cardDetails">
-                            <h3>إذاعات القرآن الكريم</h3>
-                            <p>Live Quran Audio Streaming available in Google Play and App Store</p>
+                            <h3>Smart Tech</h3>
+                            <p>Online Store App</p>
                         </div>
                     </div>
                 </div>
@@ -152,7 +166,7 @@
 
     <!-- Start Contact -->
 
-    <div class="contact">
+    <div class="contact" id="contactSection">
         <div class="container">
             <h3 class="specialHeading">Contact Us</h3>
             <div class="contents">
@@ -187,15 +201,21 @@
         <div class="container">
             <p>Copyright&copy; 2024 tatbeqey, All Rights Reserved</p>
             <div class="socialIcons">
-                <div class="iconDiv">
-                    <i class="bi bi-facebook"></i>
-                </div>
-                <div class="iconDiv">
-                    <i class="bi bi-whatsapp"></i>
-                </div>
-                <div class="iconDiv">
-                    <i class="bi bi-telegram"></i>
-                </div>
+                <a href="https://facebook.com/tatbeqey" target="_blank">
+                    <div class="iconDiv">
+                        <i class="bi bi-facebook"></i>
+                    </div>
+                </a>
+                <a href="https://wa.me/+201010133967" target="_blank">
+                    <div class="iconDiv">
+                        <i class="bi bi-whatsapp"></i>
+                    </div>
+                </a>
+                <a href="https://t.me/drahmedgabr" target="_blank">
+                    <div class="iconDiv">
+                        <i class="bi bi-telegram"></i>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
